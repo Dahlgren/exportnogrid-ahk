@@ -18,7 +18,9 @@ if (WinExist("ahk_exe " . processName)){
 
 	Sleep 100
 	Send, exportnogrid
-	Sleep 1000
+	Sleep 500
+	Send, m
+	Sleep 5000
 	Send, m
 
 	ExitApp 0
